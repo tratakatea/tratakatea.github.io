@@ -139,5 +139,14 @@ h1 span.description {
 	display: block;
 }
 
+@media only screen and (min-width: 768px) {
+#canvas {
+	 display: none;
+ }
+}
 
-
+@media only screen and (min-width: 768px) {
+#canvas {
+    display: inline-block;
+}
+}
