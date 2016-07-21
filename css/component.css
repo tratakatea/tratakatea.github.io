@@ -32,7 +32,6 @@
 
 .demo-1 .main-title {
 	text-transform: uppercase;
-	font-size: 3.2em;
 	letter-spacing: 0.1em;
 	font-weight: 100;
 }
@@ -139,14 +138,16 @@ h1 span.description {
 	display: block;
 }
 
-@media only screen and (min-width: 768px) {
-#canvas {
-	 display: none;
- }
+@media only screen and (min-width: 320px) {
+.demo-1 .main-title {
+	font-size: 2.2em;
+
+}
 }
 
 @media only screen and (min-width: 768px) {
-#canvas {
-    display: inline-block;
+.demo-1 .main-title {
+	font-size: 3.2em;
+
 }
 }
