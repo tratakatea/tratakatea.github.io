@@ -25,6 +25,11 @@
 	transform: translate3d(-50%,-50%,0);
 }
 
+.title {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .main-title img {
 	margin: 0 auto 20px auto;
 	display: block;
